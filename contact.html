@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> PROJECT PROTOTYPE </title>
+  <link rel="stylesheet" href="./CSS/main.css">
+  <link rel="stylesheet" href="./CSS/contact.css">
+</head>
+
+<body onload='document.form1.email.focus()'>
+    <header class="main-header">
+        <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+            </button>
+            <a href="index.html" class="main-header__brand">
+                <img src="./images/icon.jpg" alt="balloon asylum">
+            </a>
+        </div>
+        <h3> THE BALLOONATIC ASYLUM </h3>
+        <nav class="main-nav">
+            <div class="main-nav__items">
+                <div class="main-nav__item">
+                    <a href="./product.html">Products</a>
+                </div>
+                <div class="main-nav__item">
+                    <a href="./About.html">About</a>
+                </div>
+                <div class="main-nav__item">
+                    <a href="./contact.html">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <img class="bck-img" src="./images/balloons2.jpg">
+        <nav class="menu-nav">
+            <div class="menu-nav__items">
+                <div class="menu-nav__item">
+                    <a href="./product.html">Birthday Bouquets</a>
+                </div>
+                <div class="menu-nav__item">
+                    <a href="./product.html">Balloony Occasions</a>
+                </div>
+                <div class="menu-nav__item">
+                    <a href="./product.html">Build a Balloon Bouquet</a>
+                </div>
+                <div class="menu-nav__item">
+                    <a href="./product.html">Decorating with the Balloons</a>
+                </div>
+                <div class="menu-nav__item">
+                    <a href="./product.html">Balloon in Bulk</a>
+                </div>
+            </div>
+        </nav>
+        <div class="text">
+            <h4>
+                <span class="first-line">IT'S NOT A PARTY WITHOUT BALLOONS!</br>Balloonatic asylum offers one of the largest online balloon selections in the world.</br>
+                </span></br>Join our mailing list and learn about new balloon designs and special deals first. Unsubscribe at any time by using the link in any e-mail sent to you.
+                At balloonatic asylum we strive to offer the lowest possible prices on over 17,000 products including foil balloons, latex balloons and balloon accessories.
+                Visit the balloonatic asylum Support Portal to find answers to hundreds of balloon related questions.</br></br>
+                WE'D LOVE TO HEAR FROM YOU!</h4>
+        </div>
+        <div id="contact">
+            <div class="contact-subscribe">
+                <form name="form1" onsubmit="return ValidateEmail()">
+                    <div class="subscibe">
+                        <h2 class="heading">subscribe here to receive promotional materials from us:</h2>
+                        <div class="mail-box">
+                            <input id="email" name="email" required>
+                            <button class="submit" type="submit" name="Subscribe" >Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="contact-details">
+                    <h2 class="sub-head">you can also contact us at</h2>
+                    <ul class="contact-ul">
+                        <li class="contact-item"><h4>Phone</h4>
+                            <h5>+1 877 929 8990</h5></li>
+                        <li class="contact-item"><h4>EMail</h4>
+                            <h5>basylumcontact@gmail.com</h5></li>
+                        <li class="contact-item"><h4>Address</h4>
+                            <h5>9 Towers Paddock, Castleford WF10 3UZ, United Kingdom</h5></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <figure class="footer-img">
+            <img src="./images/icon.jpg" alt="balloon asylum">
+        </figure>
+        <h5> &#169; the balloonatic asylum | Established in 2000</h5>
+    </footer>
+    <script src="./js/contact.js"></script>
+</body>
+</html>
